@@ -1,13 +1,16 @@
 import shelve
 
-option = input("Enter A or B: ").lower()
+option = input("Enter A or B or M: ").lower()
 
-while option not in 'ab':
+while option not in 'amb':
   print("That's not valid.")
-  option = input("Enter A or B: ")
+  option = input("Enter A or B or M: ")
 
 if option == 'a':
   import ASavetodb
 
 elif option == 'b':
   import BQuizzes
+
+elif option == 'm':
+  import MQuizzes

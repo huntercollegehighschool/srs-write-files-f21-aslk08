@@ -1,0 +1,7 @@
+Quiz 1
+
+Question 1: What is the captial of Wyoming
+	A. Columbia
+	B. Cheyenne
+	C. Concord
+	D. Dover
